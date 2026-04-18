@@ -1,0 +1,13 @@
+# Local secrets / paths
+local.env
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Typical local data layout (do not commit raw genomics data)
+inputs/
+results/
+tmp/
